@@ -44,7 +44,7 @@ set -o nounset # exit if variable is unset
 # Reset to gh-pages branch, or create orphan branch if gh-pages does not exist in remote.
 if git ls-remote --exit-code --heads upstream gh-pages; then
     git fetch --depth=1 upstream gh-pages
-    git pull upstream/gh-pages
+    git checkout upstream/gh-pages
 elif [ $? -eq 2 ]; then # exit code of git ls-remote is 2 if branch does not exist
     git checkout --orphan gh-pages
 else # error occurred
