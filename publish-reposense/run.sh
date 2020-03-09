@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Select target page to deploy RepoSense report
-TARGET_PAGE = "./reposense"
+TARGET_PAGE="./reposense"
 
 # Downloads a specific version of RepoSense.jar of your choice from our repository
 ## Examples of supported options:
