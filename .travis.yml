@@ -3,7 +3,7 @@ node_js:
   - '8'
 install:
   - npm i -g markbind-cli@2.3.0
-script: markbind build && markbind deploy --travis
+script: markbind build && markbind deploy --travis && ./publish-reposense/travis-deploy.sh
 branches:
   only:
   - master
