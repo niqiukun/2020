@@ -17,4 +17,4 @@ TARGET_PAGE="./reposense"
 ## Examples of other valid options; For more, please view the user guide
 ### java -jar RepoSense.jar --repos https://github.com/reposense/RepoSense.git
 
-java -jar RepoSense.jar --config ./configs --since 21/10/2017 --until 21/11/2019 --formats java adoc js
+java -jar RepoSense.jar --config ./publish-reposense/configs --since 21/10/2017 --until 21/11/2019 --formats java adoc js
