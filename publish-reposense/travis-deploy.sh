@@ -1,6 +1,6 @@
 #!/bin/sh
 
-. .publish-reposense/run.sh
+. ./publish-reposense/run.sh
 
 export TOKEN=$GITHUB_TOKEN
 export DEPLOY_KEY=$GITHUB_DEPLOY_KEY
