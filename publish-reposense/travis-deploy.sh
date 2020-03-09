@@ -23,8 +23,6 @@ fi;
 
 mkdir gh-pages-folder
 cd gh-pages-folder
-mkdir -p $TARGET_PAGE
-mv -v ../reposense-report/* $TARGET_PAGE
 
 git init
 git config user.name "${GIT_USERNAME}"
@@ -52,6 +50,10 @@ elif [ $? -eq 2 ]; then # exit code of git ls-remote is 2 if branch does not exi
 else # error occurred
     exit $?
 fi
+
+git pull
+mkdir -p $TARGET_PAGE
+mv -v -f ../reposense-report/* $TARGET_PAGE
 
 # Exit if there are no changes to gh-pages files.
 if changes=$(git status --porcelain) && [ -z "$changes" ]; then
