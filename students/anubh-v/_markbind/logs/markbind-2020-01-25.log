@@ -1,0 +1,44 @@
+2020-01-25T15:54:01.350Z - info: Website generation started at 11:54:01 PM
+2020-01-25T15:54:01.374Z - info: Building assets...
+2020-01-25T15:54:01.422Z - info: Assets built
+2020-01-25T15:54:01.422Z - info: Generating pages...
+2020-01-25T15:54:01.694Z - error: uncaughtException: Template render error: (/home/bhav/Desktop/2020/students/talksSchedule.mbd)
+  Error: template not found: index.mbd date=Sat Jan 25 2020 23:54:01 GMT+0800 (Malaysia Time), pid=20554, uid=1000, gid=1000, cwd=/home/bhav/Desktop/2020/students/anubh-v, execPath=/home/bhav/.nvm/versions/node/v13.6.0/bin/node, version=v13.6.0, argv=[/home/bhav/.nvm/versions/node/v13.6.0/bin/node, /home/bhav/.nvm/versions/node/v13.6.0/bin/markbind, serve], rss=126226432, heapTotal=60346368, heapUsed=36679408, external=1617339, loadavg=[0.18408203125, 0.255859375, 0.2607421875], uptime=51701
+Template render error: (/home/bhav/Desktop/2020/students/talksSchedule.mbd)
+  Error: template not found: index.mbd
+    at Object._prettifyError (/home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:36:11)
+    at /home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:567:19
+    at eval (eval at _compile (/home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:637:18), <anonymous>:9:11)
+    at createTemplate (/home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:295:11)
+    at next (/home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:282:7)
+    at handle (/home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:329:11)
+    at /home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:339:9
+    at next (/home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:286:3)
+    at Environment.getTemplate (/home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:321:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (/home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:637:18), <anonymous>:8:5)
+    at Template.render (/home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:556:10)
+    at Environment.renderString (/home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:380:17)
+    at Object.renderString (/home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/index.js:99:14)
+    at /home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/src/lib/markbind/src/parser.js:707:34
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3)
+2020-01-25T15:54:01.698Z - error: uncaughtException: Template render error: (/home/bhav/Desktop/2020/students/observations.mbd)
+  Error: template not found: index.mbd date=Sat Jan 25 2020 23:54:01 GMT+0800 (Malaysia Time), pid=20554, uid=1000, gid=1000, cwd=/home/bhav/Desktop/2020/students/anubh-v, execPath=/home/bhav/.nvm/versions/node/v13.6.0/bin/node, version=v13.6.0, argv=[/home/bhav/.nvm/versions/node/v13.6.0/bin/node, /home/bhav/.nvm/versions/node/v13.6.0/bin/markbind, serve], rss=126402560, heapTotal=60346368, heapUsed=37307320, external=1625587, loadavg=[0.18408203125, 0.255859375, 0.2607421875], uptime=51701
+Template render error: (/home/bhav/Desktop/2020/students/observations.mbd)
+  Error: template not found: index.mbd
+    at Object._prettifyError (/home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:36:11)
+    at /home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:567:19
+    at eval (eval at _compile (/home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:637:18), <anonymous>:9:11)
+    at createTemplate (/home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:295:11)
+    at next (/home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:282:7)
+    at handle (/home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:329:11)
+    at /home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:339:9
+    at next (/home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:286:3)
+    at Environment.getTemplate (/home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:321:9)
+    at Template.root [as rootRenderFunc] (eval at _compile (/home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:637:18), <anonymous>:8:5)
+    at Template.render (/home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:556:10)
+    at Environment.renderString (/home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:380:17)
+    at Object.renderString (/home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/node_modules/nunjucks/index.js:99:14)
+    at /home/bhav/.nvm/versions/node/v13.6.0/lib/node_modules/markbind-cli/src/lib/markbind/src/parser.js:707:34
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3)
